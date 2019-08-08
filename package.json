@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-webview.git"
+    "url": "git+https://github.com/react-native-community/react-native-webview.git"
   },
   "files": [
     "android",
@@ -63,5 +63,11 @@
     "index.js",
     "index.d.ts",
     "react-native-webview.podspec"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/react-native-community/react-native-webview/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  }
 }
