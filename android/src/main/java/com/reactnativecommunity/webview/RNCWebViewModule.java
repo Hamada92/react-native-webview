@@ -190,7 +190,7 @@ public class RNCWebViewModule extends ReactContextBaseJavaModule implements Acti
     Intent fileSelectionIntent = getFileChooserIntent(acceptTypes, allowMultiple);
 
     Intent chooserIntent = new Intent(Intent.ACTION_CHOOSER);
-    chooserIntent.putExtra(Intent.EXTRA_INTENT, fileSelectionIntent);
+    //chooserIntent.putExtra(Intent.EXTRA_INTENT, fileSelectionIntent);
     chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, extraIntents.toArray(new Parcelable[]{}));
 
     if (chooserIntent.resolveActivity(getCurrentActivity().getPackageManager()) != null) {
